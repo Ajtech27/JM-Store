@@ -1,4 +1,4 @@
-const API_BASE_URL = 'https://jm-store-wvua.onrender.com'; // Replace with your Render URL
+const API_BASE_URL = 'https://jm-store-wvua.onrender.com';  
 
 let currentUser = null;
 
