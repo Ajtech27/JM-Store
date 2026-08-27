@@ -1,4 +1,4 @@
-const API_BASE_URL = 'https://flask-market-backend.onrender.com'; // Replace with your Render URL
+const API_BASE_URL = 'https://jm-store-wvua.onrender.com'; // Replace with your Render URL
 
 let currentUser = null;
 
