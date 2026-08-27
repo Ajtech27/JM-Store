@@ -62,3 +62,13 @@ class Item(db.Model):
         self.owner = None
         user.budget += self.price
         db.session.commit()
+
+    def to_dict(self):
+        return {
+            'id': self.id,
+            'name': self.name,
+            'price': self.price,
+            'barcode': self.barcode,
+            'description': self.description,
+            'owner': self.owner
+        }

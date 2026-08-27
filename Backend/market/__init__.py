@@ -1,8 +1,9 @@
- 
+from flask_cors import CORS
 from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
 from flask_bcrypt import Bcrypt 
 from flask_login import LoginManager
+import os
 
  
 db = SQLAlchemy()
@@ -11,11 +12,16 @@ login_manager = LoginManager()
 
 def create_app():
     app = Flask(__name__, template_folder='../templates')
-    
-    app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///markets.db'
+
+    database_url = os.environ.get('DATABASE_URL', 'sqlite:///markets.db')
+    if database_url and database_url.startswith('postgres://'):
+        database_url = database_url.replace('postgres://', 'postgresql://', 1)
+
+    app.config['SQLALCHEMY_DATABASE_URI'] = database_url
     app.config['SECRET_KEY'] = '9f02f163fb48822d3cc8d603'
     app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
-    
+
+    CORS(app, origins=['https://your-frontend.vercel.app'], supports_credentials=True)
      
     db.init_app(app)
     login_manager.init_app(app)
