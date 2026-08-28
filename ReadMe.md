@@ -9,7 +9,6 @@ A full-featured e-commerce marketplace web application built with Flask, SQLAlch
 [![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-2.0.51-red)](https://www.sqlalchemy.org/)
 [![Bootstrap](https://img.shields.io/badge/Bootstrap-5.3-7952B3)](https://getbootstrap.com/)
 [![Render](https://img.shields.io/badge/Render-Deployed-46E3B7)](https://render.com)
-[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 
 ---
 
