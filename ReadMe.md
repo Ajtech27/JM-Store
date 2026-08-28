@@ -18,16 +18,6 @@ Check out the live application here:
 
 ---
 
-## 📌 Table of Contents
-
-- [Overview](#overview)
-- [Features](#features)
-- [Tech Stack](#tech-stack)
-- [Installation & Setup](#installation--setup)
-- [Author](#author)
-
----
-
 ## 📖 Overview
 
 Flask Market is an e-commerce platform where users can:
