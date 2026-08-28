@@ -9,23 +9,12 @@ A full-featured e-commerce marketplace web application built with Flask, SQLAlch
 [![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-2.0.51-red)](https://www.sqlalchemy.org/)
 [![Bootstrap](https://img.shields.io/badge/Bootstrap-5.3-7952B3)](https://getbootstrap.com/)
 [![Render](https://img.shields.io/badge/Render-Deployed-46E3B7)](https://render.com)
-[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 
 ---
 
 Check out the live application here:
 
-🔗 **[JM Store Live](https://your-flask-market.onrender.com)**
-
----
-
-## 📌 Table of Contents
-
-- [Overview](#overview)
-- [Features](#features)
-- [Tech Stack](#tech-stack)
-- [Installation & Setup](#installation--setup)
-- [Author](#author)
+🔗 **[JM Store Live](https://jm-store-wvua.onrender.com)**
 
 ---
 
@@ -99,5 +88,5 @@ cd JM-Store
 ## 👨‍💻 Author
 Joseph Afolayan
 
-[LinkedIn](linkedin.com/in/afolayan-joseph) . [Portfolio](ajtechportfolio.vercel.app)
+[LinkedIn](https://linkedin.com/in/afolayan-joseph) . [Portfolio](https://ajtechportfolio.vercel.app)
 
