@@ -15,7 +15,7 @@ A full-featured e-commerce marketplace web application built with Flask, SQLAlch
 
 Check out the live application here:
 
-🔗 **[JM Store Live](https://your-flask-market.onrender.com)**
+🔗 **[JM Store Live]((https://jm-store-wvua.onrender.com)**
 
 ---
 
@@ -99,5 +99,5 @@ cd JM-Store
 ## 👨‍💻 Author
 Joseph Afolayan
 
-[LinkedIn](linkedin.com/in/afolayan-joseph) . [Portfolio](ajtechportfolio.vercel.app)
+[LinkedIn](https://linkedin.com/in/afolayan-joseph) . [Portfolio](https://ajtechportfolio.vercel.app)
 
