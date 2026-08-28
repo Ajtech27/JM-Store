@@ -17,6 +17,8 @@ def create_app():
     if database_url and database_url.startswith('postgres://'):
         database_url = database_url.replace('postgres://', 'postgresql://', 1)
 
+    secret_key = os.environ.get('SECRET_KEY')
+    app.config['SECRET_KEY'] = secret_key
     app.config['SQLALCHEMY_DATABASE_URI'] = database_url
     #app.config['SECRET_KEY'] = '9f02f163fb48822d3cc8d603'
     app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
