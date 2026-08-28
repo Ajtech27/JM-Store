@@ -3,9 +3,6 @@
 A full-featured e-commerce marketplace web application built with Flask, SQLAlchemy, and Bootstrap. Users can browse items, buy and sell products, and manage their inventory — all with secure authentication.
 
 
-Check out the live application here:
-
-🔗 **[JM Store Live](https://your-flask-market.onrender.com)**
 
 [![Python](https://img.shields.io/badge/Python-3.9%2B-blue)](https://www.python.org/)
 [![Flask](https://img.shields.io/badge/Flask-3.1.3-000000)](https://flask.palletsprojects.com/)
@@ -13,6 +10,12 @@ Check out the live application here:
 [![Bootstrap](https://img.shields.io/badge/Bootstrap-5.3-7952B3)](https://getbootstrap.com/)
 [![Render](https://img.shields.io/badge/Render-Deployed-46E3B7)](https://render.com)
 [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
+
+---
+
+Check out the live application here:
+
+🔗 **[JM Store Live](https://your-flask-market.onrender.com)**
 
 ---
 

@@ -18,10 +18,9 @@ def create_app():
         database_url = database_url.replace('postgres://', 'postgresql://', 1)
 
     app.config['SQLALCHEMY_DATABASE_URI'] = database_url
-    app.config['SECRET_KEY'] = '9f02f163fb48822d3cc8d603'
     app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
-    CORS(app, origins=['https://your-frontend.vercel.app'], supports_credentials=True)
+    #CORS(app, origins=['https://your-frontend.vercel.app'], supports_credentials=True)
      
     db.init_app(app)
     login_manager.init_app(app)
